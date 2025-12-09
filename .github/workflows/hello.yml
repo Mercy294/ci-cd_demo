@@ -15,8 +15,6 @@ jobs:
 
     # steps to be executed in the job
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Print Hello World
+    # run a single line command
+      - name: Hello
         run: echo "Hello, World!"
